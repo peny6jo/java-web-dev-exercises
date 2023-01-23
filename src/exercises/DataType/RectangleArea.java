@@ -1,4 +1,4 @@
-package exercises;
+package exercises.DataType;
 
 import java.util.Scanner;
 public class RectangleArea {
