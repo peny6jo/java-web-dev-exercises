@@ -45,7 +45,10 @@ public static void main(String[] args) throws FileNotFoundException {
 
 
 }
-public static HashMap<Character,Integer> count ( String word){
+
+
+
+    public static HashMap<Character,Integer> count (String word){
     HashMap<Character, Integer> dictionary =  new HashMap<>();
     for ( Character character: word.toCharArray()) {
         if (character.toString().matches("^[a-z]*$")) {
